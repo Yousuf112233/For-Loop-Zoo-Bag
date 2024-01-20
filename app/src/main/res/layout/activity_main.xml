@@ -7,13 +7,26 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
 
-
-    <Button
-        android:id="@+id/button"
+    <LinearLayout
+        android:id="@+id/linearlayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Hello "
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
 
-        />
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
 </LinearLayout>
